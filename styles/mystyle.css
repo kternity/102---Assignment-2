@@ -1,0 +1,188 @@
+/*GLOBAL*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-color: black;
+  color:white;
+  font-family: 'lato',sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+/*HEADER*/
+
+.header {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom:60px;
+  
+}
+
+.header-title {
+  letter-spacing: 2px;
+  margin-top:20px;
+  text-transform: uppercase;
+  padding-bottom:10px;
+}
+
+.header-info {
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding:2px;
+  
+}
+
+.subscribe {
+  border-bottom:2px solid #fc0;
+  color:white;
+  text-decoration:none;
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, black 50%, #fc0 50%);
+  transition: 0.2s ease-in-out, color .5s ease-in-out;
+}
+
+.subscribe:hover {
+  color:black;
+  background-color: #fc0;
+  background-position: 0% 100%;
+  ;
+}
+
+.header-sub {
+  font-size:10px;
+  letter-spacing:1px;
+  margin-top:10px;
+  padding-bottom:30p
+
+}
+.header-info {
+  font-size:8px;
+  padding-bottom:15px;
+  
+}
+
+.bar {
+  background: #fc0;
+  height:4px;
+  line-height: 0;
+  width:30px;
+  margin:auto;
+  margin-top:30px;
+}
+
+/*MAIN-NEWS*/
+
+.main-news{
+  position:relative;/*parent*/
+
+}
+
+.main-news img {
+}
+
+.main-news-text {
+  position:absolute; /*child*/
+  top:100px;
+  left:30px;
+}
+
+.main-news-text h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+.main-news-text p {
+  font-size: 40px;
+  font-weight: bold;
+  color: whilte;
+}
+
+.main-news-text a {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-decoration:none;
+}
+
+/*SECONDARY NEWS*/
+.secondary-news img {
+  height: 350px;
+  width: 100%;
+}
+
+
+
+/*UTILITIES*/
+
+/*NAV*/
+
+nav.menu {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 42px;
+}
+
+nav.menu a {
+  margin-right:20px;
+}
+
+img.logo-border {
+  height: 32px;
+  margin-left: 20px;
+}
+
+img.logo-complete {
+  display: none;
+}
+
+a.link-login {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;  
+  letter-spacing: 3px;
+}
+
+a.link-search {
+  display: none;
+}
+
+a.link-news {
+  display: none;
+}
+
+a.link-subs {
+  text-transform: uppercase;
+  background-color: black;
+  color:white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding: 11px;
+}
+
+a.link-menu {
+  display: none;
+}
+
+a.link-arrows {
+
+}
+
+/*FUNCTION*/
+
